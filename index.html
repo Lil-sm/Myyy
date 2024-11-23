@@ -26,7 +26,7 @@
             height: 100%;
             z-index: -1;
             animation: gradientBackground 5s ease infinite, backgroundFlicker 2s infinite;
-            background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc2OGlia2VreGZoNHVoeG1meGZhbTdrMHd0b2F0ZGI1amdleHA0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif'); /* Replace this with your background image URL */
+            background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc2OGlia2VreGZoNHVoeG1meGZhbTdrMHd0b2F0ZGI1amdleHA0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif');
             background-size: cover;
             background-position: center;
         }
@@ -82,7 +82,7 @@
 
         @keyframes fadeInLinks { to { opacity: 1; } }
 
-        .links a, .guns-btn {
+        .links a {
             color: #FF0000;
             text-decoration: none;
             font-size: 1.5em;
@@ -96,36 +96,12 @@
             gap: 10px;
         }
 
-        .links a:hover, .guns-btn:hover {
+        .links a:hover {
             background-color: #FF0000;
             color: black;
             box-shadow: 0 0 10px #FF0000, 0 0 20px #FF0000;
             transform: scale(1.1);
             text-shadow: 0 0 30px #FF0000, 0 0 60px #FF0000;
-        }
-
-        .guns-btn {
-            cursor: pointer;
-            background-color: #FF0000;
-            border: none;
-            padding: 12px 20px;
-            font-size: 1.5em;
-            border-radius: 5px;
-            color: black;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .guns-btn i {
-            font-size: 1.5em;
-        }
-
-        .guns-btn:active {
-            transform: scale(0.95);
-            box-shadow: 0 0 10px #FF0000;
         }
 
         .avatar {
@@ -208,9 +184,9 @@
             <a href="https://open.spotify.com/user/31h2ks7xs6634jubaeczryoirqa4?si=764cc1c75c894f15" target="_blank">
                 <i class="fab fa-spotify"></i> Spotify
             </a>
-            <button class="guns-btn">
+            <a href="https://guns.lol/lil_smoke" target="_blank">
                 <i class="fas fa-gun"></i> Guns
-            </button>
+            </a>
         </div>
     </div>
 
